@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  font-family: funkydori;
+  font-size: 40px;
+
+}
+
+p {
+  font-family: Arial;
+  font-size: 18px;
+}
+ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	width: 100%;
+  	overflow: hidden;
+  	background-color: #95805A;
+  	border-radius: 25px;
+  	box-shadow: 6px 6px 5px #B0CACC;
+}
+li{
+	display: inline;
+	float: left;
+
+}
+a{
+	display: block;
+  	padding: 12px;
+  	background-color: #95805A;
+ 	font-family: Arial; 
+  	font-size: 15px;
+  	color: white;
+
+}
+div{
+	padding: 0px;
+}
+
+	border-style: solid; 
+	border-color: white; 
+	border-width: 5px;
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
